@@ -11,4 +11,25 @@ void main(List<String> arguments) {
   }else{
     print("$angka = nol");
   }
+
+  // bisa juga menggunakan ternari seperti di bawah ini
+
+  // String tampil = angka < 0 ? "Negatif" : "Positif";
+  // print(tampil);
+
+
+  // ini contoh penggunaan switch
+  switch(angka){
+    case 0 :
+      print('Angkanya Nol');
+      break;
+    case 1 :
+      print('Angkanya Satu');
+      break;
+    default:
+      print('Kaga Ada Dalam List');
+      break;
+  }
+
 }
+
